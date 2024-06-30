@@ -1,0 +1,17 @@
+/* src/components/Header.css */
+.menu-toggle {
+    display: flex;
+    align-items: center;
+    margin-right: auto; /* Pushes the toggle to the right */
+  }
+  
+  .menu-toggle .toggle-icon {
+    color: white; /* Ensures the icon color is white */
+    font-size: 1.5rem; /* Adjust the font size as needed */
+    cursor: pointer;
+  }
+  
+  .menu-toggle .toggle-icon:hover {
+    color: #f8f9fa; /* Optional: Change color on hover for better visibility */
+  }
+  
